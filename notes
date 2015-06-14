@@ -74,4 +74,22 @@ if (sound2Over = true){
 boolean overRect(int x, int y, int width, int height){
 }
 
-f
+
+
+instructions stuff
+// replace instructions text part w this:
+      
+      textAlign(CENTER);
+      textSize(30);
+      text("Instructions", 750-12, 115);
+      textSize(20);
+      text("The objective of spider solitaire is to complete as many tableaus as possible.", 750-12, 180);
+      text("What that entails is to complete columns of cards in decreasing order of value, from King to Ace.", 750-12, 210);
+      text("You are allowed to move cards between columns, but the value of the card you are moving must be one less than that of the card", 750-12, 240);
+      text("you are moving to.", 750-12, 270);
+      text("You are allowed to move multiple cards in a columns, but the values of each card must be in appropriate descending order.", 750-12, 300);
+      text("If there are no possible moves left, you may click the stock of cards on the bottom left.", 750-12, 330);
+      text("The stock will put one card on each column.", 750-12, 360);
+      text("There are a limited number of cards in the stock, however, so be wise with your decisions.",750-12,390);
+      text("Have fun!",738,460);    
+      textAlign(LEFT);
